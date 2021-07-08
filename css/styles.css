@@ -121,17 +121,17 @@ body {
 }
 .telephone-info:hover,
 .telephone-link:focus {
-  color:var(--accent-color)
+  color: var(--accent-color);
 }
 .mail-info:hover .menu-icons1,
 .mail-info:focus .menu-icons1 {
   color: var(--accent-color);
-  fill:var(--accent-color);
+  fill: var(--accent-color);
 }
 .telephone-info:hover .menu-icons2,
 .telepfone-info:focus .menu-icons2 {
   color: var(--accent-color);
-  fill:var(--accent-color);
+  fill: var(--accent-color);
 }
 .menu-icons1{
   margin-right: 10px;
@@ -485,8 +485,6 @@ padding-bottom: 94px;
   margin-left: 30px;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
 }
 .clients-item-list:nth-last-child(-n + 6) {
   margin-right: 0;
@@ -497,21 +495,34 @@ padding-bottom: 94px;
   align-items: center;
   width: 100%;
   height: 100%;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 .clients-list-icon {
   width: 106px;
   height: 60px;
   fill: var(--accent-color-sixth);
 }
-.clients-item-list:hover,
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
+  fill: var(--accent-color);
+}
+
+/*.clients-item-list:hover,
 .clients-item-list:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 .clients-item-list:hover .clients-list-icon,
 .clients-item-list:focus .clients-list-icon {
-  fill:var(--accent-color);
-}
+  fill: var(--accent-color);
+}*/
+
 .icon-size1 {
 width: 41px;
 height: 47px;
@@ -523,7 +534,6 @@ height: 47px;
 /*====== END CLIENTS======*/
 /*======= FOOTER =====*/
 .footer {
-  margin-top: 94px;
   background-color: #2f303a;
 }
 .footer-container {

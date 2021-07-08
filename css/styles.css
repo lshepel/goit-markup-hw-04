@@ -372,8 +372,8 @@ body {
 }
 
 /*======= END OUR TEAM =====*/
-/*======= PROJECTS =====*/f
-.projects {
+/*======= PROJECTS =====*/
+.projects-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -382,7 +382,6 @@ body {
   justify-content: center;
   margin-left: -8px;
   margin-bottom: 50px;
-  margin-top:94px;
 }
 .button-title-list {
   text-align: center;
